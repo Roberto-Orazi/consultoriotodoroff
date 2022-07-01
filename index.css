@@ -1,0 +1,556 @@
+body{
+  
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    background: url(/Imagenes/fondo.jpg);
+}
+.headertel{
+    
+    margin-top: -22px;
+    height: 30px;
+    position: sticky;
+    top: 0;
+    background: #051367;
+    z-index: 2;
+}
+.headertel a{
+    left: 45%;
+    font-size: 15px;
+    margin-top: 3px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    position:absolute;
+}
+mark{
+    background: rgba(0, 0, 0, 0);
+    color: white;
+}
+header{
+    z-index: 1;
+    font-weight: 500;
+    margin-top: -22px;
+    top: 30px;
+    position: sticky;
+    color: #051367;
+    background: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.barranav h1{
+    left: 50%;
+    text-align: center;
+    font-weight: 500;
+    
+}
+
+.cards{
+    max-width: 1800px;
+    margin-left: 27%;
+    position: relative;
+    margin-top: 200px;
+    display: inline-flex;
+   
+
+}
+.card {
+    text-align: center;
+    position: relative;
+    margin: 0px 80px;
+    transform: translate(-50%, -50%);
+    width: 24rem; /* 384px */
+    height: 18rem; /* 544px */
+    background-size: cover;
+    background-color: #000;
+    
+    background-clip: content-box;
+    border-radius: 20px;
+    background-position: center center;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+    rgba(0, 0, 0, 0.212) 0 19px 38px;
+}
+
+.card1{
+    text-align: center;
+    position: relative;
+    margin: 0px 20px;
+    transform: translate(-50%, -50%);
+    width: 20rem; /* 384px */
+    height: 15rem; /* 544px */
+    background-size: cover;
+    background-color: #000;
+    background-image: url('/Imagenes/lentesvarios.jpg');
+    background-clip: content-box;
+    border-radius: 20px;
+    background-position: center center;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+    rgba(0, 0, 0, 0.212) 0 19px 38px;
+}
+.card2{
+    text-align: center;
+    position: relative;
+    margin: 0px 20px;
+    transform: translate(-50%, -50%);
+    width: 20rem; /* 384px */
+    height: 15rem; /* 544px */
+    background-size: cover;
+    background-color: #000;
+    background-image: url('/Imagenes//maquina1.jpg');
+    background-clip: content-box;
+    border-radius: 20px;
+    background-position: center center;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+    rgba(0, 0, 0, 0.212) 0 19px 38px;
+}
+.card3{
+    text-align: center;
+    position: relative;
+    margin: 0px 20px;
+    transform: translate(-50%, -50%);
+    width: 20rem; /* 384px */
+    height: 15rem; /* 544px */
+    background-size: cover;
+    background-color: #000;
+    background-image: url('/Imagenes/lentesletras.jpg');
+    background-clip: content-box;
+    border-radius: 20px;
+    background-position: center center;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+    rgba(0, 0, 0, 0.212) 0 19px 38px;
+}
+.cards2{
+    max-width: 1800px;
+    margin-left: 27%;
+    position: relative;
+    margin-top: 100px;
+    display: inline-flex;
+
+}
+
+.card4{
+    text-align: center;
+    position: relative;
+    margin: 0px 20px;
+    transform: translate(-50%, -50%);
+    width: 20rem; /* 384px */
+    height: 15rem; /* 544px */
+    background-size: cover;
+    background-color: #000;
+    background-image: url('/Imagenes/maquinadentistav2.jpg');
+    background-clip: content-box;
+    border-radius: 20px;
+    background-position: center center;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+    rgba(0, 0, 0, 0.212) 0 19px 38px;
+}
+.card5{
+    text-align: center;
+    position: relative;
+    margin: 0px 20px;
+    transform: translate(-50%, -50%);
+    width: 20rem; /* 384px */
+    height: 15rem; /* 544px */
+    background-size: cover;
+    background-color: #000;
+    background-image: url('/Imagenes/serviciosdentistas.jpg');
+    background-clip: content-box;
+    border-radius: 20px;
+    background-position: center center;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+    rgba(0, 0, 0, 0.212) 0 19px 38px;
+}
+.card6{
+    text-align: center;
+    position: relative;
+    margin: 0px 20px;
+    transform: translate(-50%, -50%);
+    width: 20rem; /* 384px */
+    height: 15rem; /* 544px */
+    background-size: cover;
+    background-color: #000;
+    background-image: url('/Imagenes/IMG_2677.JPG');
+    background-clip: content-box;
+    border-radius: 20px;
+    background-position: center center;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+    rgba(0, 0, 0, 0.212) 0 19px 38px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.card__inner {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .9);
+    color: #FFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+    padding: 1rem 1rem 1.5rem 1.5rem;
+    transition: all .4s ease 0s;
+}
+
+.card:hover .card__inner {
+    opacity: 1;
+}
+
+.card__inner p {
+    overflow-y: scroll;
+    height: 87%;
+    padding-right: 1rem;
+    margin-top: 1.5rem;
+}
+
+::-webkit-scrollbar {
+    width: .4rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFF;
+    border-radius: 56px;
+}
+
+/*FOOTER
+.contacto{
+    background: white;
+    height: 250px;
+    margin-bottom: -8px;
+}
+
+.map{
+    left: 200px;
+    padding: 22px;
+}*/
+
+/*PANTALLA MAX 428 TELEFONO*/
+@media (max-width: 428px){
+    .headertel{
+        margin-top: -22px;
+        height: 30px;
+    position: sticky;
+    top: 0;
+    background: #051367;
+    z-index: 2;
+    }
+    .headertel a{
+        left: 25%;
+        font-size: 15px;
+        margin-top: 3px;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        position:relative;
+    }
+    h3{
+        margin-top: 60px;
+        color: white;
+        
+    }
+    mark{
+        background: rgba(0, 0, 0, 0.219);
+        color: white;
+    }
+    .cards{
+        max-width: 400px;
+        
+        position: absolute;
+        margin-top: 200px;
+        display:flex;
+        flex-direction: column;
+      
+    
+    }
+    .card {
+        text-align: center;
+        position: relative;
+       
+        transform: translate(-50%, -50%);
+        width: 24rem; /* 384px */
+        height: 18rem; /* 544px */
+        background-size: cover;
+        background-color: #000;
+        
+        background-clip: content-box;
+        border-radius: 20px;
+        background-position: center center;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+        rgba(0, 0, 0, 0.212) 0 19px 38px;
+    }
+    
+    .card1{
+        text-align: center;
+        position: relative;
+       
+        
+        width: 24rem; /* 384px */
+        height: 15rem; /* 544px */
+        background-size: cover;
+        background-color: #000;
+        background-image: url('/Imagenes/lentesvarios.jpg');
+        background-clip: content-box;
+        border-radius: 20px;
+        background-position: center center;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+        rgba(0, 0, 0, 0.212) 0 19px 38px;
+    }
+    .card2{
+        text-align: center;
+        position: relative;
+        margin-top: 50px;
+        transform: translate(-50%, -50%);
+        width: 24rem; /* 384px */
+        height: 15rem; /* 544px */
+        background-size: cover;
+        background-color: #000;
+        background-image: url('/Imagenes//maquina1.jpg');
+        background-clip: content-box;
+        border-radius: 20px;
+        background-position: center center;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+        rgba(0, 0, 0, 0.212) 0 19px 38px;
+    }
+    .card3{
+        text-align: center;
+        position: relative;
+        margin-top: 50px;
+        
+        transform: translate(-50%, -50%);
+        width: 24rem; /* 384px */
+        height: 15rem; /* 544px */
+        background-size: cover;
+        background-color: #000;
+        background-image: url('/Imagenes/lentesletras.jpg');
+        background-clip: content-box;
+        border-radius: 20px;
+        background-position: center center;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+        rgba(0, 0, 0, 0.212) 0 19px 38px;
+    }
+    .cards2{
+        max-width: 300px;
+        
+        position: relative;
+       
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .card4{
+        text-align: center;
+        position: relative;
+        margin-top: -35px;
+        transform: translate(-50%, -50%);
+        width: 24rem; /* 384px */
+        height: 15rem; /* 544px */
+        background-size: cover;
+        background-color: #000;
+        background-image: url('/Imagenes/maquinadentistav2.jpg');
+        background-clip: content-box;
+        border-radius: 20px;
+        background-position: center center;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+        rgba(0, 0, 0, 0.212) 0 19px 38px;
+    }
+    .card5{
+        text-align: center;
+        position: relative;
+        margin-top: 50px;
+        transform: translate(-50%, -50%);
+        width: 24rem;/* 384px */
+        height: 15rem; /* 544px */
+        background-size: cover;
+        background-color: #000;
+        background-image: url('/Imagenes/serviciosdentistas.jpg');
+        background-clip: content-box;
+        border-radius: 20px;
+        background-position: center center;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+        rgba(0, 0, 0, 0.212) 0 19px 38px;
+    }
+   
+    .card6{
+      
+        text-align: center;
+        position: relative;
+        margin-top: 50px;
+        transform: translate(-50%, -50%);
+        width: 24rem; /* 384px */
+        height: 15rem; /* 544px */
+        background-size: cover;
+        background-color: #000;
+        background-image: url('/Imagenes/IMG_2677.JPG');
+        background-clip: content-box;
+        border-radius: 20px;
+        background-position: center center;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+        rgba(0, 0, 0, 0.212) 0 19px 38px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    
+    .card__inner {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        opacity: 0;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        transition: all .4s ease 0s;
+    }
+    
+    .card:hover .card:active, .card__inner {
+        opacity:1;
+    }
+    
+    .card__inner p {
+        overflow-y: scroll;
+        height: 87%;
+        padding-right: 1rem;
+        margin-top: 1.5rem;
+    }
+    
+    ::-webkit-scrollbar {
+        width: .4rem;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #FFF;
+        border-radius: 56px;
+    }
+    
+    
+}
+
+@media (max-width: 1280px){
+    
+   
+    
+    .headertel{
+        margin-top: -22px;
+        height: 30px;
+    position: sticky;
+    top: 0;
+    background: #051367;
+    z-index: 2;
+    }
+    
+    .cards{
+        max-width: 900px;
+        margin-left: 18%;
+        position: relative;
+        margin-top: 150px;
+        display: inline-flex;
+    }
+    .cards2{
+        max-width: 1200px;
+        margin-left: 18%;
+        position: relative;
+        margin-top: 60px;
+        display: inline-flex;
+    }
+    .card{
+        width: 150px;
+        margin-left: 10px;
+    }
+    .card4 h3{
+        margin-top: 5px;
+    }
+    
+}
+
+/*PANTALLA MAX 1440*/
+@media (max-width: 1440px){
+   
+    .headertel{
+        margin-top: -22px;
+        height: 30px;
+        position: sticky;
+        top: 0;
+        background: #051367;
+        z-index: 2;
+    }
+    
+    .cards{
+        max-width: 1200px;
+        margin-left: 18%;
+        position: relative;
+        margin-top: 150px;
+        display: inline-flex;
+       
+    }
+    .cards2{
+        max-width: 1200px;
+        margin-left: 18%;
+        position: relative;
+        margin-top: 120px;
+        display: inline-flex;
+       
+    
+    }
+    .card{
+        width: 280px;
+        margin-left: 75px;
+    }
+    .card4 h3{
+        margin-top: 5px;
+    }
+    
+}
+
+/*PANTALLA 2K*/
+@media (min-width: 1921px){
+    body{
+        background: url(/Imagenes/fondo2k.jpg);
+    }
+    
+
+    .cards{
+        max-width: 2000px;
+        margin-left: 18%;
+        position: relative;
+        margin-top: 200px;
+        display: inline-flex;
+       
+    
+    }
+    .cards2{
+        max-width: 2000px;
+        margin-left: 18%;
+        position: relative;
+        margin-top: 200px;
+        display: inline-flex;
+       
+    
+    }
+    .card{
+        width: 400px;
+        margin: 0 150px;
+    }
+}
