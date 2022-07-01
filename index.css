@@ -230,8 +230,84 @@ a{
     left: 200px;
     padding: 22px;
 }*/
+/*PANTALLA MAX 1280*/
+@media (max-width: 1280px){
+    
+   
+    
+    .headertel{
+        margin-top: -22px;
+        height: 30px;
+    position: sticky;
+    top: 0;
+    background: #051367;
+    z-index: 2;
+    }
+    
+    .cards{
+        max-width: 900px;
+        margin-left: 18%;
+        position: relative;
+        margin-top: 150px;
+        display: inline-flex;
+    }
+    .cards2{
+        max-width: 1200px;
+        margin-left: 18%;
+        position: relative;
+        margin-top: 60px;
+        display: inline-flex;
+    }
+    .card{
+        width: 150px;
+        margin-left: 10px;
+    }
+    .card4 h3{
+        margin-top: 5px;
+    }
+    
+}
 
+/*PANTALLA MAX 1440*/
+@media (max-width: 1440px){
+   
+    .headertel{
+        margin-top: -22px;
+        height: 30px;
+        position: sticky;
+        top: 0;
+        background: #051367;
+        z-index: 2;
+    }
+    
+    .cards{
+        max-width: 1200px;
+        margin-left: 18%;
+        position: relative;
+        margin-top: 150px;
+        display: inline-flex;
+       
+    }
+    .cards2{
+        max-width: 1200px;
+        margin-left: 18%;
+        position: relative;
+        margin-top: 120px;
+        display: inline-flex;
+       
+    
+    }
+    .card{
+        width: 280px;
+        margin-left: 75px;
+    }
+    .card4 h3{
+        margin-top: 5px;
+    }
+    
+}
 
+/*PANTALLA 2K*/
 @media (min-width: 1921px){
     body{
         background: url(/Imagenes/fondo2k.jpg);
