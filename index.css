@@ -230,7 +230,214 @@ a{
     left: 200px;
     padding: 22px;
 }*/
-/*PANTALLA MAX 1280*/
+
+/*PANTALLA MAX 428 TELEFONO*/
+@media (max-width: 428px){
+    .headertel{
+        margin-top: -22px;
+        height: 30px;
+    position: sticky;
+    top: 0;
+    background: #051367;
+    z-index: 2;
+    }
+    .headertel a{
+        left: 25%;
+        font-size: 15px;
+        margin-top: 3px;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        position:relative;
+    }
+
+
+    .cards{
+        max-width: 400px;
+        margin-left: 250px;
+        position: relative;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+       
+    
+    }
+    .card {
+        text-align: center;
+        position: relative;
+        margin: 0px 0px;
+        transform: translate(-50%, -50%);
+        width: 24rem; /* 384px */
+        height: 18rem; /* 544px */
+        background-size: cover;
+        background-color: #000;
+        
+        background-clip: content-box;
+        border-radius: 20px;
+        background-position: center center;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+        rgba(0, 0, 0, 0.212) 0 19px 38px;
+    }
+    
+    .card1{
+        text-align: center;
+        position: relative;
+        
+        transform: translate(-50%, -50%);
+        width: 20rem; /* 384px */
+        height: 15rem; /* 544px */
+        background-size: cover;
+        background-color: #000;
+        background-image: url('/Imagenes/lentesvarios.jpg');
+        background-clip: content-box;
+        border-radius: 20px;
+        background-position: center center;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+        rgba(0, 0, 0, 0.212) 0 19px 38px;
+    }
+    .card2{
+        text-align: center;
+        position: relative;
+        
+        transform: translate(-50%, -50%);
+        width: 25rem; /* 384px */
+        height: 15rem; /* 544px */
+        background-size: cover;
+        background-color: #000;
+        background-image: url('/Imagenes//maquina1.jpg');
+        background-clip: content-box;
+        border-radius: 20px;
+        background-position: center center;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+        rgba(0, 0, 0, 0.212) 0 19px 38px;
+    }
+    .card3{
+        text-align: center;
+        position: relative;
+       
+        transform: translate(-50%, -50%);
+        width: 20rem; /* 384px */
+        height: 15rem; /* 544px */
+        background-size: cover;
+        background-color: #000;
+        background-image: url('/Imagenes/lentesletras.jpg');
+        background-clip: content-box;
+        border-radius: 20px;
+        background-position: center center;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+        rgba(0, 0, 0, 0.212) 0 19px 38px;
+    }
+    .cards2{
+        max-width: 250px;
+        margin-left: 50%;
+        position: relative;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .card4{
+        text-align: center;
+        position: relative;
+        margin: 50px 25px;
+        transform: translate(-50%, -50%);
+        width: 20rem; /* 384px */
+        height: 15rem; /* 544px */
+        background-size: cover;
+        background-color: #000;
+        background-image: url('/Imagenes/maquinadentistav2.jpg');
+        background-clip: content-box;
+        border-radius: 20px;
+        background-position: center center;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+        rgba(0, 0, 0, 0.212) 0 19px 38px;
+    }
+    .card5{
+        text-align: center;
+        position: relative;
+        margin: 50px 25px;
+        transform: translate(-50%, -50%);
+        width: 20rem; /* 384px */
+        height: 15rem; /* 544px */
+        background-size: cover;
+        background-color: #000;
+        background-image: url('/Imagenes/serviciosdentistas.jpg');
+        background-clip: content-box;
+        border-radius: 20px;
+        background-position: center center;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+        rgba(0, 0, 0, 0.212) 0 19px 38px;
+    }
+    .card6{
+        text-align: center;
+        position: relative;
+        margin: 50px 25px;
+        transform: translate(-50%, -50%);
+        width: 20rem; /* 384px */
+        height: 15rem; /* 544px */
+        background-size: cover;
+        background-color: #000;
+        background-image: url('/Imagenes/IMG_2677.JPG');
+        background-clip: content-box;
+        border-radius: 20px;
+        background-position: center center;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, .22) 0 15px 12px,
+        rgba(0, 0, 0, 0.212) 0 19px 38px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .card__inner {
+        text-align: center;
+        background-color: rgba(0, 0, 0, .9);
+        color: #FFF;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        opacity: 0;
+        padding: 1rem 1rem 1.5rem 1.5rem;
+        transition: all .4s ease 0s;
+    }
+    
+    .card:hover .card__inner {
+        opacity: 1;
+    }
+    
+    .card__inner p {
+        overflow-y: scroll;
+        height: 87%;
+        padding-right: 1rem;
+        margin-top: 1.5rem;
+    }
+    
+    ::-webkit-scrollbar {
+        width: .4rem;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #FFF;
+        border-radius: 56px;
+    }
+    
+
+
+
+
+}
 @media (max-width: 1280px){
     
    
