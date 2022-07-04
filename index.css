@@ -236,7 +236,10 @@ a{
 
 /*PANTALLA MAX 428 TELEFONO*/
 @media (max-width: 428px){
+    
+    header{width: 100%;}
     .headertel{
+        width: 100%;
         margin-top: -22px;
         height: 30px;
     position: sticky;
@@ -245,6 +248,7 @@ a{
     z-index: 2;
     }
     .headertel a{
+        
         left: 25%;
         font-size: 15px;
         margin-top: 3px;
@@ -261,16 +265,15 @@ a{
     mark{
         background: rgba(0, 0, 0, 0.219);
         color: white;
+        
     }
     .cards{
-        max-width: 400px;
-        
+        width: 200px;
         position: absolute;
         margin-top: 200px;
         display:flex;
         flex-direction: column;
-      
-    
+        padding: 30px 20px 30px 50px;
     }
     .card {
         text-align: center;
@@ -293,10 +296,11 @@ a{
     .card1{
         text-align: center;
         position: relative;
-       
-        
+        margin-top: 30px;
+        transform: translate(-50%, -50%);
         width: 24rem; /* 384px */
-        height: 15rem; /* 544px */
+        height: 18rem; /* 544px */
+        
         background-size: cover;
         background-color: #000;
         background-image: url('/Imagenes/lentesvarios.jpg');
@@ -313,7 +317,7 @@ a{
         margin-top: 50px;
         transform: translate(-50%, -50%);
         width: 24rem; /* 384px */
-        height: 15rem; /* 544px */
+        height: 18rem; /* 544px */
         background-size: cover;
         background-color: #000;
         background-image: url('/Imagenes//maquina1.jpg');
@@ -328,10 +332,10 @@ a{
         text-align: center;
         position: relative;
         margin-top: 50px;
-        
         transform: translate(-50%, -50%);
         width: 24rem; /* 384px */
-        height: 15rem; /* 544px */
+        height: 18rem; /* 544px */
+        
         background-size: cover;
         background-color: #000;
         background-image: url('/Imagenes/lentesletras.jpg');
@@ -343,12 +347,12 @@ a{
         rgba(0, 0, 0, 0.212) 0 19px 38px;
     }
     .cards2{
-        max-width: 300px;
-        
-        position: relative;
-       
+        width: 200px;
+        position: absolute;
+        margin-top: 200px;
         display:flex;
         flex-direction: column;
+        padding: 30px 20px 30px 50px;
     }
     
     .card4{
@@ -357,7 +361,7 @@ a{
         margin-top: -35px;
         transform: translate(-50%, -50%);
         width: 24rem; /* 384px */
-        height: 15rem; /* 544px */
+        height: 18rem; /* 544px */
         background-size: cover;
         background-color: #000;
         background-image: url('/Imagenes/maquinadentistav2.jpg');
@@ -374,7 +378,7 @@ a{
         margin-top: 50px;
         transform: translate(-50%, -50%);
         width: 24rem;/* 384px */
-        height: 15rem; /* 544px */
+        height: 18rem; /* 544px */
         background-size: cover;
         background-color: #000;
         background-image: url('/Imagenes/serviciosdentistas.jpg');
@@ -393,7 +397,7 @@ a{
         margin-top: 50px;
         transform: translate(-50%, -50%);
         width: 24rem; /* 384px */
-        height: 15rem; /* 544px */
+        height: 18rem; /* 544px */
         background-size: cover;
         background-color: #000;
         background-image: url('/Imagenes/IMG_2677.JPG');
@@ -409,7 +413,9 @@ a{
         text-decoration: none;
         color: rgb(255, 255, 255);
     }
-    
+    .card p{
+        margin-bottom: 10px;
+    }
     .card__inner {
         text-align: center;
         background-color: rgba(0, 0, 0, 0);
